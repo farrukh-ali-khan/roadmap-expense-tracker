@@ -1,0 +1,23 @@
+{
+  "name": "roadmap-expense-tracker",
+  "version": "1.0.0",
+  "description": "roadmap-expense-tracker",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/farrukh-ali-khan/roadmap-expense-tracker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/farrukh-ali-khan/roadmap-expense-tracker/issues"
+  },
+  "homepage": "https://github.com/farrukh-ali-khan/roadmap-expense-tracker#readme",
+  "dependencies": {
+    "commander": "^13.1.0"
+  }
+}
