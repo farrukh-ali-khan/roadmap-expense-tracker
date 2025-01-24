@@ -24,15 +24,16 @@ A simple command-line application to manage your finances. This expense tracker 
    ```
 2. Install the dependencies:
 
-   ```npm install
-
+   ```sh
+   npm install
    ```
 
 ## Usage
 
 Add an Expense
 
-```node index.js add --description "Lunch" --amount 20
+```sh
+   node index.js add --description "Lunch" --amount 20
 
 ```
 
@@ -40,8 +41,8 @@ Add an Expense
 
 List All Expenses
 
-```
-node index.js list
+```sh
+   node index.js list
 ```
 
 ID Date Description Amount
@@ -49,13 +50,18 @@ ID Date Description Amount
 
 # Delete an Expense
 
-node index.js delete --id 1
+```sh
+   node index.js delete --id 1
+```
 
 # Expense deleted successfully
 
 Show Summary of All Expenses
 
-node index.js summary
+```sh
+    node index.js summary
+```
+
 Total expenses: $20
 
 For more details, visit the project page: [Expense Tracker Project](https://roadmap.sh/projects/expense-tracker)
