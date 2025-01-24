@@ -32,35 +32,34 @@ A simple command-line application to manage your finances. This expense tracker 
 
 Add an Expense
 
-```sh
-   node index.js add --description "Lunch" --amount 20
-
-```
+   ```sh
+      node index.js add --description "Lunch" --amount 20
+   ```
 
 # Expense added successfully (ID: 1)
 
 List All Expenses
 
-```sh
-   node index.js list
-```
+   ```sh
+      node index.js list
+   ```
 
 ID Date Description Amount
 1 2024-08-06 Lunch $20
 
 # Delete an Expense
 
-```sh
-   node index.js delete --id 1
-```
+   ```sh
+      node index.js delete --id 1
+   ```
 
 # Expense deleted successfully
 
 Show Summary of All Expenses
 
-```sh
-    node index.js summary
-```
+   ```sh
+       node index.js summary
+   ```
 
 Total expenses: $20
 
